@@ -2,6 +2,9 @@ extends ../shared/template
 block content
   h2 Home Page!
 
+  each gambler in gamblers
+    include ../gambler/index
+
 block scripts
   script(src='/js/user/home.js')
 

@@ -1,0 +1,29 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"Jeff",
+  "photo":"http://www.tsbmag.com/wp-content/uploads/2012/03/success1.jpg",
+  "spouse":{"name":"Janet", "photo":"http://1.bp.blogspot.com/-rYodmWB5VUI/UCP3qWZpukI/AAAAAAAAD-w/bv5aAjvkUBY/s1600/vintage+housewife.jpg"},
+  "cash":10000.00,
+  "assests":[{"name":"ring","photo":"http://pics.zoara.net/images/products/large/170518_swirl_bezel_set_diamond_ring_angle.jpg","value":5000}],
+  "results":{"wins":5,"losses":5},
+  "isDivorced": false
+}
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Mark Antony",
+  "photo":"http://i54.tinypic.com/fbajdd.jpg",
+  "spouse":{"name":"Cleopatra", "photo":"http://www.harpersbazaar.com/cm/harpersbazaar/images/Ap/hbz-cleopatra-50th-anniversary-blu-ray-dvd-Elizabeth-Taylor-as-Cleopatra-de.jpg"},
+  "cash":7000.00,
+  "assests":[{"name":"sword","photo":"http://jiminmontana.files.wordpress.com/2012/02/rudiarii-roman-swords-bdi.png","value":8500}],
+  "results":{"wins":6,"losses":3}
+}
+
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"Morgan Freeman",
+  "photo":"http://deluxedojo.com/wp-content/uploads/2014/04/morgan-freeman.jpg",
+  "spouse":{"name":"Sara", "photo":"http://thumbs.dreamstime.com/z/happy-young-housewife-cutting-fruits-kitchen-modern-31894555.jpg"},
+  "cash":10000.00,
+  "assests":[{"name":"watch","photo":"http://mooshworld.com/wp-content/uploads/2014/05/Chanel-watch-chanel-1391875-1024-768.jpg","value":1500}],
+  "results":{"wins":7,"losses":0}
+}

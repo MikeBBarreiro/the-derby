@@ -1,0 +1,23 @@
+extends ../shared/template
+block content
+
+  each gambler in gamblers
+    .mainDiv(data-gambler-id=gambler._id.toString())
+      h1.name= gambler.name
+      .img(style="background-image: url('#{gambler.photo}'); background-size: cover;")
+        .cash $ #{gambler.cash.toFixed(2)}
+      span.win Wins: #{gambler.results.wins}-
+      span.loss Losses: #{gambler.results.losses}
+      .spouse
+        .photo(style="background-image: url('#{gambler.spouse.photo}');")
+          .spousName= gambler.spouse.name
+      .assets
+        each asset in gambler.assests
+          .asset
+            .photo(style='background-image:url("#{asset.photo}");')
+              .info
+                .name= asset.name
+                .value $#{asset.value.toFixed(2)}
+
+block scripts
+  script(src='/js/user/gambler.js')
